@@ -1,0 +1,69 @@
+:root {
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --default-color: #FFFFFF;
+  --secondary-color: #282323;
+}
+
+.header {
+  background-color: var(--secondary-color);
+}
+
+header img {
+  width: 100%;
+} 
+
+h1, h2 {
+    font-family: var(--primary-font);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+
+header h1 {
+  font-size: 72px;
+  position: relative;
+  bottom: 720px;
+}
+
+header h2 {
+  font-size: 24px;
+  position: relative;
+  bottom: 720px;
+}
+
+p {
+  text-align: center;
+  color: var(--default-color);
+  position: relative;
+  bottom: 710px;
+  font-size: 18px;
+}
+
+header .btn {
+  background: var(--default-color);
+  color: #272142;
+  position: relative;
+  bottom: 650px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+  padding: 18px 20px;
+  font-family: var(--primary-font);
+  font-size: 14px;
+} 
+
+.gallery {
+  height: 280px;
+  max-width: 100%;
+}
+
+.gallery-container {
+  width: 100%;
+  padding: 0 144px;
+  background: #282323;
+}
+
+.sample-pic {
+  padding: 20px 40px;
+}
